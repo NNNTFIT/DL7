@@ -214,6 +214,7 @@
     font-weight: 400;
     font-size: 16px;
     color: rgba(0, 0, 0, 1);
+    opacity: 50%;
 }
 .button-email{
     width: 209px;
