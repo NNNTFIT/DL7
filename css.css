@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.container{
+    display: flex;
+    font-family: Poppins;
+}
+.menu{
+    padding: 176px 0 540px 0;
+    background-color: rgba(255, 255, 255, 1);
+}
+.menu-box{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.icon-box{
+    width: 78px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-box img{
+    width: 24px;
+    height: 24px;
+}
+.highlight-box{
+    background: linear-gradient(to left, rgba(65, 130, 249, 0.2),rgba(65, 130, 249, 0.01));
+}
+.content{
+    background-color: rgb(249,249,249);
+    padding: 32px 40px;
+    width: 100%;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 551px;
+}
+.text-box{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.tittle{
+    margin: 0;
+    font-weight: 500;
+    font-size: 24px;
+    color: rgba(62, 67, 93, 1);
+}
+.text{
+    margin:0;
+    font-style: light;
+    font-weight: 400;
+    color: rgba(173, 167, 167, 1);
+    font-size: 16px;
+}
+.box-menu-header{
+    display: flex;
+    gap: 20px;
+    height: 52px;
+}
+.search{
+    margin: 0;
+    border-radius: 8px;
+    border: 0px;
+    padding-left:60px ;
+    width: 294px;
+    height: 52px;
+    background: url(assets/search.png) no-repeat 24px center;
+    background-size: 24px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.bell{
+    width: 52px;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+}
+.bell img{
+    width: 24px;
+    height: 24px;
+}
+.avt1{
+    width: 52px;
+    height: 52px;
+    border-radius: 10px;
+}
+.body{
+    margin-top: 32px;
+    border-radius: 10px 0 0 0;
+    background-color: rgba(255, 255, 255, 1);
+}
+.background-content{
+    width: 100%;
+    height: 100px;
+    border-radius: 10px 0 0 0;
+}
+.container-content{
+    padding: 32px 32px 71px 32px;
+}
+.account{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-account{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+.avt2{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+.text-account{
+    display: flex;
+    flex-direction: column;
+    gap:6px;
+}
+.name{
+    margin: 0;
+    color:rgba(0, 0, 0, 1);
+    font-weight: 500;
+    font-size: 20px;
+}
+.mail{
+    margin: 0;
+    color:rgba(0, 0, 0, 1);
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 50%;
+}
+.edit-button{
+    width: 93px;
+    height: 44px;
+    border-radius: 8px;
+    background-color: rgba(65, 130, 249, 1);
+    border: 0px;
+}
+.form{
+    margin: 30px auto 32px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    width: 1218px;
+}
+.input{
+    width: 593px;;
+}
+.input p{
+    margin: 0 0 12px 0;
+    color: rgba(0, 0, 0, 1);
+    opacity: 80%;
+    font-weight: 400;
+    font-size: 16px;
+}
+.input input{
+    width: 573px;
+    height: 52px;
+    border-radius: 8px;
+    border: 0;
+    padding: 0 0 0 20px;
+    background: url(assets/select.png) no-repeat 549px center;
+    background-size: 24px;
+    background-color: rgba(249, 249, 249, 1);
+    font-size: 16px;
+}
+.email{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.my-email{
+    margin: 0;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 1);
+
+}
+.box-email{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 266px;
+}
+.icon-mail{
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background-color: rgba(65, 130, 249, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-mail img{
+    width: 24px;
+    height: 24px;
+}
+.name-mail{
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+}
+.time-mail{
+    margin: 6px 0 0 0;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+}
+.button-email{
+    width: 209px;
+    height: 44px;
+    border-radius: 9px;
+    background-color: rgba(65, 130, 249, 0.1);
+    color: rgba(65, 130, 249, 1);
+    font-weight: 400px;
+    font-size: 16px;
+}
