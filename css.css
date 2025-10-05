@@ -218,9 +218,10 @@
 .button-email{
     width: 209px;
     height: 44px;
-    border-radius: 9px;
+    border-radius: 8px;
     background-color: rgba(65, 130, 249, 0.1);
     color: rgba(65, 130, 249, 1);
     font-weight: 400px;
     font-size: 16px;
+    border: 0;
 }
