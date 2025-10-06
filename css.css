@@ -30,17 +30,19 @@
     background-color: rgb(249,249,249);
     padding: 32px 40px;
     width: 100%;
+    box-sizing: border-box;
 }
 .head{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 551px;
+    width: 100%;
 }
 .text-box{
     display: flex;
     flex-direction: column;
     gap: 12px;
+    width: 30%;
 }
 .tittle{
     margin: 0;
@@ -57,8 +59,10 @@
 }
 .box-menu-header{
     display: flex;
+    justify-content: flex-end;
     gap: 20px;
     height: 52px;
+    width: 70%;
 }
 .search{
     margin: 0;
@@ -92,6 +96,7 @@
 }
 .body{
     margin-top: 32px;
+    width: 100%;
     border-radius: 10px 0 0 0;
     background-color: rgba(255, 255, 255, 1);
 }
@@ -145,35 +150,55 @@
     color: rgba(255, 255, 255, 1);
 }
 .form{
-    margin: 30px auto 32px auto;
+    margin: 30px 0 32px 0;
     display: flex;
-    flex-wrap: wrap;
     gap: 32px;
-    width: 1218px;
+    width: 100%;
 }
-.input{
-    width: 593px;;
+.box-input{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 25px;
+
 }
-.input p{
-    margin: 0 0 12px 0;
+.input-form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.tittle-input{
+    margin: 0;
     color: rgba(0, 0, 0, 1);
     opacity: 80%;
     font-weight: 400;
     font-size: 16px;
 }
-.input input{
-    width: 573px;
-    height: 52px;
-    border-radius: 8px;
-    border: 0;
-    padding: 0 0 0 20px;
-    background: url(assets/select.png) no-repeat 549px center;
-    background-size: 24px;
-    background-color: rgba(249, 249, 249, 1);
+.text-input{
+    margin: 0;
+    opacity: 40%;
     font-size: 16px;
+    font-weight: 400;
+}
+.input img{
+    opacity: 50%;
+    width: 24px;
+    height: 24px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height: 52px;
+    width: 100%;
+    border-radius: 8px;
+    padding: 0 14px 0 20px;
+    background-color: rgba(249, 249, 249, 1);
 }
 .email{
     margin-top: 32px;
+    width: 266px;
     display: flex;
     flex-direction: column;
     gap: 26px;
@@ -182,9 +207,7 @@
     margin: 0;
     font-weight: 500;
     font-size: 18px;
-    color: rgba(0, 0, 0, 1);
-
-}
+    color: rgba(0, 0, 0, 1);}
 .box-email{
     display: flex;
     gap: 20px;
@@ -223,7 +246,7 @@
     border-radius: 8px;
     background-color: rgba(65, 130, 249, 0.1);
     color: rgba(65, 130, 249, 1);
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 16px;
     border: 0;
 }
